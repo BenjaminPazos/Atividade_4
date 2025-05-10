@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() 
+  {
+    cadeia mae = "Tess" 
+    cadeia filha = "Anna"
+    cadeia biscoitinho 
+    biscoitinho = mae
+    mae = filha
+    filha = biscoitinho
+    escreva ("A mãe é ")
+    escreva (mae) 
+    escreva (" A filha é ")
+    escreva (filha)
+  }
+}
